@@ -37,7 +37,7 @@ public struct Expression: Describable {
         description = statementSelect.description
     }
 
-    init(withRaw raw: String) {
+    public init(withRaw raw: String) {
         description = raw
     }
 }
